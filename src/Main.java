@@ -4,13 +4,11 @@ import javax.net.ssl.*;
 import java.util.*;
 
 class MailTry {
-    // ---> CLass name vary kore.
-    // --> sir er code .
     private static DataOutputStream dos;
     public static BufferedReader br;
 
     public static void main(String argv[]) throws Exception {
-        String user = "s2111176129@ru.ac.bd"; //change
+        String user = ""; //change
         Scanner str =new Scanner(System.in);
         String pass = "pss";  //change
         //String pass = str.newline();
